@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>موقع متطور</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #ff7a18, #af002d, #319197);
+            height: 100vh;
+            color: white;
+            overflow: hidden;
+        }
+
+        header {
+            text-align: center;
+            padding: 80px 20px;
+            background: rgba(0, 0, 0, 0.5);
+            border-bottom: 3px solid #fff;
+            animation: fadeIn 2s ease-out;
+        }
+
+        h1 {
+            font-size: 4rem;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+        }
+
+        h2 {
+            font-size: 2rem;
+            margin-top: 10px;
+        }
+
+        nav {
+            position: fixed;
+            top: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            display: flex;
+            gap: 20px;
+            z-index: 100;
+        }
+
+        nav a {
+            color: white;
+            font-size: 1.2rem;
+            text-decoration: none;
+            padding: 10px 20px;
+            background: rgba(0, 0, 0, 0.7);
+            border-radius: 25px;
+            transition: all 0.3s ease;
+        }
+
+        nav a:hover {
+            background: rgba(0, 0, 0, 0.9);
+            transform: scale(1.1);
+        }
+
+        .content {
+            text-align: center;
+            margin-top: 150px;
+            animation: slideUp 2s ease-out;
+        }
+
+        .content p {
+            font-size: 1.5rem;
+            line-height: 1.6;
+            margin-top: 20px;
+            max-width: 700px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        footer {
+            position: fixed;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            text-align: center;
+            background: rgba(0, 0, 0, 0.5);
+            padding: 10px 0;
+            width: 100%;
+            color: white;
+            animation: fadeIn 3s ease-in-out;
+        }
+
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+
+        @keyframes slideUp {
+            0% {
+                transform: translateY(50px);
+                opacity: 0;
+            }
+            100% {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>موقع متطور جدا</h1>
+    <h2>محتوى أنيق وأنيق باستخدام تقنيات حديثة</h2>
+</header>
+
+<nav>
+    <a href="#">الرئيسية</a>
+    <a href="#">المنتجات</a>
+    <a href="#">اتصل بنا</a>
+</nav>
+
+<div class="content">
+    <h2>هذا هو المحتوى المتطور</h2>
+    <p>هذا الموقع يحتوي على تصميم جميل باستخدام CSS حديثة مع تأثيرات حركية وألوان متدرجة. جرب التفاعل مع العناصر لتحصل على تجربة مذهلة.</p>
+</div>
+
+<footer>
+    <p>جميع الحقوق محفوظة © 2025</p>
+</footer>
+
+</body>
+</html>
