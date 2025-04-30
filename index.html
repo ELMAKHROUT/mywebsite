@@ -125,3 +125,24 @@
 
 </body>
 </html>
+<div class="section">
+  <h2>🛒 طلب خدمة</h2>
+  <form action="https://formsubmit.co/medsipo1@gmail.com" method="POST">
+    <input type="text" name="name" placeholder="الاسم الكامل" required />
+    <input type="email" name="email" placeholder="البريد الإلكتروني" required />
+
+    <label for="service" style="text-align:right;">نوع الخدمة المطلوبة:</label>
+    <select name="service" id="service" required style="padding:10px; border-radius:10px; font-size:1em;">
+      <option value="">-- اختار خدمة --</option>
+      <option value="عرض PowerPoint">عرض PowerPoint</option>
+      <option value="تصميم Canva">تصميم Canva</option>
+      <option value="معالجة Word / Excel">معالجة Word / Excel</option>
+      <option value="نصيحة فلاحية">نصيحة فلاحية</option>
+      <option value="موقع بسيط HTML">موقع بسيط HTML</option>
+      <option value="أخرى">أخرى</option>
+    </select>
+
+    <textarea name="message" rows="5" placeholder="اكتب تفاصيل الخدمة المطلوبة..." required></textarea>
+    <button type="submit">إرسال الطلب</button>
+  </form>
+</div>
